@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Praktikum 2 - 11S23050</title>
+
+    <link
+      href="assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-5.3.8-dist/css/custom.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          >Praktikum 2 - 11S23050</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="py-5 text-white bg-primary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h1 class="display-5 fw-bold">Selamat Datang</h1>
+            <p class="lead mb-0">
+              Ini adalah blog sederhana yang dibuat dengan Bootstrap 5.3. untuk
+              praktikum PABWE kedua oleh Zefanya Ecklezia Saragih dengan NIM
+              11S23050.
+            </p>
+          </div>
+          <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="about.html" class="btn btn-outline-light">About Me</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN: LIST BLOG -->
+    <main class="container my-5">
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm overflow-hidden">
+            <img
+              src="assets/image/pohon.jpg"
+              class="card-img-top"
+              alt="Pohon"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Di Antara Pohon: Pelajaran Kesabaran dari Alam
+              </h5>
+              <p class="card-text text-muted small mb-2">
+                10 Sep 2025 • Zefanya
+              </p>
+              <p class="card-text flex-grow-1">
+                Alam seringkali menjadi guru yang tenang dan tak menggurui. Saat
+                kita berdiri di tepi hutan atau menyusuri jalur pegunungan,
+                ritme yang kita amati — daun tertiup angin, aliran sungai yang
+                tak tergesa, perubahan warna musim — semuanya seakan
+                mengingatkan satu hal sederhana: perubahan itu bertahap dan
+                sabar.
+              </p>
+              <div
+                class="mt-3 d-flex justify-content-between align-items-center"
+              >
+                <a href="detail1.html" class="btn btn-primary"
+                  >Baca Selengkapnya</a
+                >
+                <span class="badge bg-secondary">Inspirasi</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm overflow-hidden">
+            <img
+              src="assets/image/koding.jpg"
+              class="card-img-top"
+              alt="Koding"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Menulis Kode yang Berkelanjutan: Praktik untuk Developer yang
+                Sibuk
+              </h5>
+              <p class="card-text text-muted small mb-2">5 Sep 2025 • Admin</p>
+              <p class="card-text flex-grow-1">
+                Di dunia pengembangan perangkat lunak, produktivitas sering
+                disamakan dengan seberapa cepat kita bisa menghasilkan baris
+                kode. Kenyataannya, nilai jangka panjang dari sebuah kode lebih
+                banyak ditentukan oleh kemudahan merawatnya—oleh seberapa cepat
+                tim (atau masa depan diri Anda) dapat memahami, memperbaiki, dan
+                mengembangkan kode tersebut di masa datang.
+              </p>
+              <div
+                class="mt-3 d-flex justify-content-between align-items-center"
+              >
+                <a href="detail2.html" class="btn btn-primary"
+                  >Baca Selengkapnya</a
+                >
+                <span class="badge bg-secondary">Teknologi</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm overflow-hidden">
+            <img
+              src="assets/image/belajar.jpg"
+              class="card-img-top"
+              alt="Blog 3"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                Belajar Sepanjang Hayat: Seni Mengubah Ketidakpastian Menjadi
+                Peluang
+              </h5>
+              <p class="card-text text-muted small mb-2">1 Sep 2025 • Admin</p>
+              <p class="card-text flex-grow-1">
+                Di era informasi sekarang, perubahan datang cepat dan banyak
+                keterampilan yang relevan kemarin belum tentu relevan esok hari.
+                Sikap terbaik bukan menolak perubahan, melainkan merangkulnya
+                melalui kebiasaan belajar yang konsisten.
+              </p>
+              <div
+                class="mt-3 d-flex justify-content-between align-items-center"
+              >
+                <a href="detail3.html" class="btn btn-primary"
+                  >Baca Selengkapnya</a
+                >
+                <span class="badge bg-secondary">Edukasi</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- pagination (opsional) -->
+      <div class="d-flex justify-content-center mt-5">
+        <nav aria-label="Page navigation">
+          <ul class="pagination pagination-sm">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">Prev</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 Praktikum PABWE | Dibuat dengan Bootstrap 5.3
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (lokal sesuai struktur) -->
+    <script src="assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

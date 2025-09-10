@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Praktikum 2 - 11S23050</title>
+
+    <link
+      href="assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-5.3.8-dist/css/custom.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"
+          >Praktikum 2 - 11S23050</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu2">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-5">
+      <article class="card shadow-sm">
+        <img
+          src="assets/image/koding.jpg"
+          class="card-img-top"
+          alt="Header image"
+        />
+        <div class="card-body">
+          <h1 class="card-title fw-bold">
+            Menulis Kode yang Berkelanjutan: Praktik untuk Developer yang Sibuk
+          </h1>
+          <p class="text-muted">
+            Dipublikasikan pada 5 September 2025 oleh Admin
+          </p>
+
+          <p>
+            Di dunia pengembangan perangkat lunak, produktivitas sering
+            disamakan dengan seberapa cepat kita bisa menghasilkan baris kode.
+            Kenyataannya, nilai jangka panjang dari sebuah kode lebih banyak
+            ditentukan oleh kemudahan merawatnya—oleh seberapa cepat tim (atau
+            masa depan diri Anda) dapat memahami, memperbaiki, dan mengembangkan
+            kode tersebut di masa datang. Praktik-praktik yang membuat kode
+            "berkelanjutan" bukanlah hal spektakuler; mereka cenderung sederhana
+            dan konsisten: nama variabel yang bermakna, fungsi kecil dengan satu
+            tanggung jawab, dokumentasi ringkas, dan test otomatis yang menutup
+            bagian-bagian krusial dari logika aplikasi. Investasi sedikit waktu
+            ekstra hari ini untuk menulis test atau komentar yang jelas akan
+            menghemat berjam-jam debugging besok, dan itu adalah kompromi yang
+            terasa selalu menguntungkan.
+          </p>
+          <p>
+            Otomatisasi adalah sekutu besar developer sibuk. Setup pipeline CI
+            yang menjalankan test, linting, dan analisis statis setiap kali ada
+            perubahan membantu menjaga kualitas tanpa mengorbankan kecepatan.
+            Namun automatisasi harus dipandang sebagai alat yang mendukung
+            kebiasaan baik, bukan pengganti pemahaman mendalam terhadap kode.
+            Memahami bagaimana alur data bergerak, di mana titik-titik kritis
+            kegagalan, dan asumsi-asumsi apa yang dibuat oleh modul tertentu
+            adalah keterampilan yang tidak bisa di-otomatisasi sepenuhnya.
+            Kombinasikan automatisasi dengan rutinitas review kode yang
+            memfokuskan pada desain dan empati: reviewer tidak hanya mencari
+            bug, tapi menanyakan apakah implementasi ini mudah dimengerti esok
+            hari.
+          </p>
+          <p>
+            Refactoring teratur adalah kebiasaan lain yang membuat kode
+            berkelanjutan. Alih-alih menunggu kode menjadi “sampah” yang tidak
+            tersentuh, lakukan refactor kecil setiap kali Anda berada di area
+            kode tersebut—perbaiki nama, ekstrak fungsi, atau sederhanakan
+            kondisi. Pendekatan "boy scout rule" (tinggalkan camp sedikit lebih
+            rapi daripada ketika Anda tiba) adalah pola mental yang sangat
+            efektif: alih-alih memblokir waktu refactor besar yang seringkali
+            ditunda, lakukan perbaikan kecil dan terus-menerus. Ini juga
+            membantu mengurangi kecemasan pengembang; sebuah codebase yang
+            terawat terasa lebih bersahabat dan meminimalkan risiko perubahan
+            besar menyebabkan regresi.
+          </p>
+          <p>
+            Terakhir, jaga kesejahteraan mental Anda sebagai developer.
+            Produktivitas yang sebenarnya bukan tentang mengorbankan tidur atau
+            kesehatan demi deadline — itu pendekatan yang tidak berkelanjutan.
+            Sesi fokus singkat yang terstruktur (misalnya teknik Pomodoro),
+            istirahat terjadwal, dan komunikasi jelas tentang estimasi kerja
+            membuat tim lebih andal. Ketika developer merasa diberdayakan untuk
+            menulis kode yang dapat dipertanggungjawabkan, hasilnya bukan hanya
+            perangkat lunak yang lebih baik, tetapi juga lingkungan kerja yang
+            lebih sehat dan kreatif.
+          </p>
+
+          <!-- ======== SECTION KOMENTAR ======== -->
+          <section id="comments" class="mt-5">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title mb-3">Komentar</h5>
+
+                <!-- Daftar komentar statis -->
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-4">
+                    <div class="d-flex">
+                      <div class="me-3">
+                        <div
+                          class="rounded-circle bg-secondary text-white d-inline-flex align-items-center justify-content-center"
+                          style="width: 48px; height: 48px; font-weight: 600"
+                        >
+                          M
+                        </div>
+                      </div>
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                          <div>
+                            <strong>Maria</strong>
+                            <div class="text-muted small">7 Sep 2025</div>
+                          </div>
+                        </div>
+                        <p class="mb-1">
+                          Artikel ini membuka wawasan baru, saya jadi
+                          termotivasi untuk lebih konsisten refactoring
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="mb-4">
+                    <div class="d-flex">
+                      <div class="me-3">
+                        <div
+                          class="rounded-circle bg-secondary text-white d-inline-flex align-items-center justify-content-center"
+                          style="width: 48px; height: 48px; font-weight: 600"
+                        >
+                          S
+                        </div>
+                      </div>
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                          <div>
+                            <strong>Solin</strong>
+                            <div class="text-muted small">6 Sep 2025</div>
+                          </div>
+                        </div>
+                        <p class="mb-1">
+                          Terima kasih sudah menulis dengan jelas. Saya jadi
+                          ingin mencoba teknik Pomodoro di pekerjaan saya.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="mb-4">
+                    <div class="d-flex">
+                      <div class="me-3">
+                        <div
+                          class="rounded-circle bg-secondary text-white d-inline-flex align-items-center justify-content-center"
+                          style="width: 48px; height: 48px; font-weight: 600"
+                        >
+                          A
+                        </div>
+                      </div>
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-between">
+                          <div>
+                            <strong>Anto</strong>
+                            <div class="text-muted small">5 Sep 2025</div>
+                          </div>
+                        </div>
+                        <p class="mb-1">
+                          Mantap! Semoga ada artikel lanjutan yang lebih teknis
+                          tentang testing otomatis
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                <hr />
+
+                <!-- Form komentar -->
+                <form class="row g-3" method="post" action="">
+                  <div class="col-md-6">
+                    <label for="commentName" class="form-label">Nama</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="commentName"
+                      name="name"
+                      placeholder="Nama kamu"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="commentEmail" class="form-label"
+                      >Email (opsional)</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="commentEmail"
+                      name="email"
+                      placeholder="email@contoh.com"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="commentText" class="form-label">Komentar</label>
+                    <textarea
+                      class="form-control"
+                      id="commentText"
+                      name="comment"
+                      rows="4"
+                      placeholder="Tulis komentar di sini..."
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-primary">
+                      Kirim Komentar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!-- ======== END KOMENTAR ======== -->
+
+          <a href="index.html" class="btn btn-secondary mt-3"
+            >Kembali ke Blog</a
+          >
+        </div>
+      </article>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 Praktikum PABWE | Dibuat dengan Bootstrap 5.3
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
